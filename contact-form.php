@@ -30,7 +30,7 @@ Comments:	'.$_POST['comments'].'
     
     // Authentication  
     $mail->Username   = "sumon.animator@gmail.com"; // Your full Gmail address
-    $mail->Password   = "xbqmqmyzpetxvwql"; // Your Gmail password
+    $mail->Password   = ""; // Your Gmail password
       
     // Compose
     $mail->SetFrom($_POST['emailid'], $_POST['fullname']);
